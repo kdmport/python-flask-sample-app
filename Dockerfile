@@ -14,7 +14,7 @@ RUN flask init-db
 # Unit tests
 # RUN pip install pytest && pytest
 
-EXPOSE 8080
+EXPOSE 5000
 
 CMD [ "flask", "run", "--host=0.0.0.0" ]
 
