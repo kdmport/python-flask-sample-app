@@ -4,7 +4,7 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: gcr.io/cf-flask-demo/python-flask-sample-app
+  repository: h.cfcr.io/demo_kmitchell/default 
   tag: with-helm
 service:
   name: python
