@@ -4,8 +4,8 @@
 replicaCount: 1
 image:
   pullPolicy: IfNotPresent
-  repository: gcr.io/cf-flask-demo/python-flask-sample-app:with-helm 
-  tag: master
+  repository: gcr.io/cf-flask-demo/python-flask-sample-app
+  tag: with-helm
 service:
   name: python
   type: LoadBalancer
@@ -19,4 +19,4 @@ resources:
     cpu: 100m
     memory: 128Mi
 ingress:
-  enabled: false
+  enabled: true
